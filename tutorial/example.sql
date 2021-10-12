@@ -9,7 +9,7 @@
   [sqlmend]
 */
 
-{{if .abc_2)}}
+{{if .abc_2}}
 -- if the second migration is active, we have access to this column
 select name, name_type from {{.table1}}
 {{else}}
